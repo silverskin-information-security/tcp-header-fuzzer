@@ -98,7 +98,7 @@ const char *get_opt(int i, int argc, char *argv[]) {
     if ((i + 1) > argc) {
         return NULL;
     }
-    return argv[i];
+    return argv[i + 1];
 }
 
 int opt_is_set(const char *name, int argc, char *argv[]) {
