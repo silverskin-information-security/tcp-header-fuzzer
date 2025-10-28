@@ -7,7 +7,8 @@ Lots of improvements to come, I hope. But for now, this is what I've got.
 
 ## Building
 
+```
 $ mkdir build
 $ cmake ../
 $ make
-
+```
